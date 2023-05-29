@@ -572,7 +572,7 @@ body
 
 .intro2
 {
-        width: 60%;
+        width: 90%;
         color: navy;
         background-color: #222;
         margin-top: 30px;
@@ -682,6 +682,7 @@ font-size: 35px;
     box-shadow: 0 10px 15px rgba(0,0,0,.3);
     transform: scale(1.03);
     outline:  blue 4px solid;
+    background-color: #323332;
 }
 
 @media (max-width:768px){
@@ -776,6 +777,7 @@ font-size: 35px;
     box-shadow: 0 10px 15px rgba(0,0,0,.3);
     transform: scale(1.03);
     outline: blue 2px solid;
+    background-color: #000000;
 }
 
 
