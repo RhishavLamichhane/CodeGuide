@@ -37,6 +37,7 @@ body
         background-position: center;
         background-blend-mode: darken;
         border-radius: 10px;
+        color: black;
 }
 .c1 {
         color: white;
@@ -536,7 +537,49 @@ nav {
   background-color: rgb(17, 217, 217);
   color: black;
 }     
+/* Add this code at the end of your existing CSS */
 
+@media screen and (max-width: 768px) {
+        /* Styles for screens with a maximum width of 768px */
+      
+        nav {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      
+        nav .logo {
+          margin: 10px;
+          justify-content: center;
+        }
+      
+        nav .logo h1 {
+          font-size: 18px;
+        }
+      
+        nav ul {
+          flex-direction: column;
+          align-items: flex-start;
+          margin-top: 10px;
+        }
+      
+        nav ul li {
+          position: static;
+        }
+      
+        nav ul li ul {
+          position: static;
+          background-color: transparent;
+          box-shadow: none;
+          padding: 0;
+          border: none;
+          margin-left: 20px;
+        }
+      
+        nav ul li a {
+          padding: 5px 10px;
+        }
+      }
+      
 
 
 
