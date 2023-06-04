@@ -510,7 +510,7 @@ nav {
       .column1
       {
         margin-left: 200px;
-        margin-top: 20px;
+        margin-top: 10px;
       }
       @media screen and (max-width: 800px) {
         .column {
@@ -535,6 +535,6 @@ nav {
               .column1
               {
                 margin-left: 20px;
-                margin-top: 50px;
+                margin-top: 25px;
               }
       }
