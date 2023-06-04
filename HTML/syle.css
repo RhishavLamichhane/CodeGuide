@@ -512,7 +512,7 @@ nav {
         margin-left: 200px;
         margin-top: 20px;
       }
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 800px) {
         .column {
                 float: left;
                 width: auto;
