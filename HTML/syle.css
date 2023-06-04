@@ -489,8 +489,15 @@ nav {
 
       .column {
         float: left;
-        width: 50%;
-        padding-left: 50px;
+        width: auto;
+        padding: 0px;
+        height: auto; /* Should be removed. Only for demonstration */
+      }
+
+      .column1 {
+        float: left;
+        width: auto;
+        padding: 0px;
         height: auto; /* Should be removed. Only for demonstration */
       }
       
@@ -499,4 +506,35 @@ nav {
         content: "";
         display: table;
         clear: both;
+      }
+      .column1
+      {
+        margin-left: 500px;
+        margin-top: 20px;
+      }
+      @media screen and (max-width: 600px) {
+        .column {
+                float: left;
+                width: auto;
+                padding: 0px;
+                height: auto; /* Should be removed. Only for demonstration */
+              }
+              .column1 {
+                float: left;
+                width: auto;
+                padding: 0px;
+                height: auto; /* Should be removed. Only for demonstration */
+              }
+              
+              /* Clear floats after the columns */
+              .row:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+              .column1
+              {
+                margin-left: 20px;
+                margin-top: 50px;
+              }
       }
