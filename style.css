@@ -613,6 +613,7 @@ nav {
               background-color: #24262b;
           padding: 5px 0;
           border-radius: 10px;
+          margin-top: 20px;
           height: auto;
       }
       .footer-col{
@@ -708,3 +709,58 @@ nav {
         color: rgb(0, 255, 221);
       }
       
+
+
+      .contact
+      {
+        width: 60%;
+        color: #ffffff;
+        background-color: #24262b;
+        margin-top: 25px;
+        border-radius: 10px;
+        font-family: 'Oswald', sans-serif;
+      }
+      .contact h1
+      {
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 3px;
+        font-size: 35px;
+      }
+      .contact input
+      {
+        width: 60%;
+        margin: 5px;
+        outline: none;
+        border-radius: 2px;
+        font-family: 'Oswald', sans-serif;
+        padding-left: 15px;
+        height: 30px;
+        color: rgb(0, 238, 255);
+        background-color: #40444e;
+      }
+      .contact ::-webkit-input-placeholder
+      {
+        color: white;
+      }
+      .contact textarea
+      {
+        background-color: #40444e;
+        width: 60%;
+        font-family: 'Oswald', sans-serif;
+        color: rgb(0, 238, 255);
+        border-radius: 2px;
+        padding: 15px;
+        margin-top: 5px;
+      }
+      .contact .sub
+      {
+        width: 100px;
+        padding-left: 0;
+        margin: 5px;
+      }
+      .contact .sub:hover
+      {
+        background-color: #000000;
+        padding-left: 10px;
+        color: aqua;
+      }
